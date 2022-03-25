@@ -1,0 +1,621 @@
+
+/*FONT FAMILY*/
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('../fonts/Poppins-Bold.ttf');
+}
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('../fonts/Poppins-Light.ttf');
+}
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('../fonts/Poppins-Medium.ttf');
+}
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../fonts/Poppins-Regular.ttf');
+}
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url('../fonts/Poppins-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'impact';
+  src: url('../fonts/impact.ttf');
+}
+body{
+    font-family: 'Poppins-Regular' !important;
+    overflow-x: hidden;
+}
+.backgr_color {
+    background-color: #A2FBFF;
+    height: 76px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    top: 45%;
+}
+#signin .form-control {
+    padding-top: 10px;
+}
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  padding-right: 27px !important;
+    padding-top: 3px;
+}
+.banner img{
+	width: 100%;
+}
+.para_title {
+    background-color: #004F53;
+    height: 125px;
+    border-right: 1px solid #fff;
+}
+.small_title{
+	background: #F78105;
+    color: #FEFCFF;
+    text-align: center;
+    padding-top: 15px;
+}
+.para_title h6 {
+    color: #FEFCFF;
+    text-transform: uppercase;
+    font-family: 'Poppins-Regular';
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 129px;
+}
+.small_title h6 {
+    font-size: 23px;
+    font-family: 'Poppins-SemiBold';
+    padding-top: 9px;
+}
+.small_title span{
+	font-size: 16px;
+}
+.small_title h3 {
+    text-transform: uppercase;
+    font-size: 19px;
+    text-align: left;
+    padding-bottom: 13px;
+    padding-left: 25px;
+    font-family: 'Poppins-SemiBold';
+}
+.border{
+    border: none;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.home_signin {
+    padding-left: 25px;
+    height: 60px;
+}
+.home_signin h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #858585;
+    font-weight: 400;
+    vertical-align: middle;
+    line-height: 58px;
+}
+.no_padding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    border-right: 1px solid #fff;
+}
+.sign_form{
+	background: #D1EFEF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sign_form h6{
+    text-align: center;
+    font-size: 20px;
+    color: #616163;
+    text-transform: uppercase;
+}
+.sign_form form{
+    text-transform: uppercase;
+}
+.sign_form form label {
+    font-weight: 600;
+    font-size: 12px;
+    color: #616163;
+}
+.sign_form .form-control {
+    border-radius: 0px;
+    height: 28px;
+    font-size: 12px;
+}
+.sign_form .btn.btn-warning {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #F78105;
+    border-color: #F78105;
+    border-radius: 0px;
+    padding: 5px 27px 2px  27px;
+    font-size: 12px;
+}
+.form-group.form_link {
+    text-align: center;
+}
+.form_link p {
+    margin-bottom: 3px;
+}
+.form_link a {
+    font-size: 12px;
+    text-align: center;
+    color: #616163 !important;
+    text-transform: capitalize;
+}
+.bg_color li {
+    padding-bottom: 14px;
+}
+.bg_color a {
+    color: #015052;
+    font-size: 17px;
+}
+.bg_color {
+    background: #ECFEFF;
+    height: 285px;
+    padding-top: 35px;
+    font-size: 19px;
+    border-bottom: 5px solid #015052;
+}
+footer {
+    background: #249EA1;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+footer a {
+    color: #fff!important;
+    font-size: 12px;
+}
+footer h6 {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Poppins-SemiBold';
+}
+.copy_right.text-center {
+    color: #fff;
+    font-size: 10px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+a:hover{
+	text-decoration: none !important;
+}
+
+
+/*Question Page*/
+.sidebar li {
+    padding-bottom: 27px;
+}
+.sidebar li i {
+    font-size: 24px;
+    width: 50px;
+    vertical-align: top;
+}
+.sidebar ul{
+ padding-left: 40px !important;
+ margin-bottom: 0px;
+}
+.sidebar {
+    border-bottom: none;
+    height: 376px;
+}
+.start_exam input.btn.btn-success {
+    background-color: #004F53;
+    border-color: #004F53;
+    font-family: 'Poppins-Bold';
+    border-radius: 0px !important;
+    font-size: 23px;
+    width: 100%;
+}
+.master_questions .nav-item span {
+    padding-left: 12px;
+}
+.master_questions .nav.nav-tabs li a {
+    color: #057E85 !important;
+    font-family: 'Poppins-SemiBold';
+    font-size: 16px;
+    padding: 16px 18px 16px 18px !important;
+    background-color: #C2E4E5;
+    border-radius: 0;
+    border-bottom: none;
+    border-right: 1px solid #fff !important;
+}
+.master_questions .nav-link.active {
+    background-color: #E6F0F1 !important;
+    border-color: #E6F0F1 !important;
+}
+.master_questions .nav-tabs{
+    border-bottom: none !important;
+}
+.master_questions .tab-content {
+    background-color: #E6F0F1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #C2E4E5 !important;
+}
+.table thead th, .table td, .table th {
+   border-bottom: none !important;
+}
+.table thead th {
+    color: #057E85 !important;
+    font-family: 'Poppins-SemiBold';
+}
+.table tbody th, .table tbody td {
+    color: #767C7C;
+    font-family: 'POPPINS-REGULAR';
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600 !important;
+}
+/*INPROGRESS CSS*/
+p.content_html {
+    font-size: 14px;
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 57px;
+}
+ul.list-group.list-group-striped li:nth-of-type(odd){
+    background: #E8F4F4;
+}
+.list-group-striped h4 {
+    margin-bottom: 0px;
+    font-family: 'Poppins-SemiBold';
+    color: #010202;
+}
+.list-group-item p {
+    margin-bottom: 0px;
+}
+li.list-group-item {
+    border-radius: 0px !important;
+    font-size: 15px;
+    padding-left: 50px;
+}
+/*ACCOUNT FINAL*/
+.exam_details{
+    color: #fff;
+}
+.account_details{
+    height: initial;
+}
+.col-md-4.bl_border {
+    border-left: 1px solid #62BCBD;
+    border-right: 1px solid #62BCBD;
+}
+.exam_details h5 {
+    font-family: 'Poppins-SemiBold';
+    font-size: 22px;
+    text-align: center;
+    padding-top: 25px;
+}
+.exam_details h1 {
+    text-align: center;
+    width: 2.4em;
+    height: 2.4em;
+    line-height: 2.4em;
+    border-radius: 50%;
+    border: 4px solid #9AB8BC;
+    font-weight: 500;
+    margin-left: 75px;
+    margin-top: 25px;
+}
+.exam_details a{
+    font-size: 12px;
+}
+.exam_tab .small_title {
+    padding-top: 0px;
+}.tab_content.exam_tab {
+    border-right: 1px solid #fff;
+}
+.exam_tab .nav-tabs .nav-link:focus, .exam_tab .nav-tabs .nav-link:hover, .exam_tab .nav-tabs .nav-link {
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.exam_tab li:nth-child(1) {
+    width: 279px;
+}
+.exam_tab li:nth-child(2) {
+    width: 295px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.exam_tab li:nth-child(3) {
+    width: 268px;
+}
+.nav-item span i {
+    padding-right: 20px;
+    font-size: 22px;
+    vertical-align: middle;
+}
+.edit_profile h5 {
+    text-transform: uppercase;
+    font-family: 'Poppins-SemiBold';
+}
+.edit_profile .sign_form{
+    width: 588px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.start_exam{
+    text-align: center;
+}
+.det_exam input{
+    width: 88% !important;
+}
+.form-check-input{
+    margin-top: 1px !important;
+}
+.form-check.text-center {
+    margin-bottom: 20px;
+}
+
+/*QUIZ CSS*/
+.question_html h3 {
+    font-size: 25px;
+    font-family: 'Poppins-SemiBold';
+    color: #017F84;
+}
+.quiz_sm span {
+    font-size: 25px;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+.answer input {
+    margin-bottom: 28px;
+}
+
+.answer {
+    color: #878787;
+    font-size: 22px;
+}
+.answer input[type="radio"] {
+    height: 30px;
+    width: 30px;
+    vertical-align: top;
+    margin-right: 20px;
+}
+.question_html {
+    padding-top: 25px;
+}
+.question p {
+    font-size: 22px;
+    font-weight: 600;
+}
+.qt_div {
+    padding-top: 10px;
+}
+/*MEDIA QUERY*/
+@media only screen and (max-width: 1199px) {
+  .small_title h6 {
+        font-size: 15px;
+        font-family: 'Poppins-SemiBold';
+        padding-top: 0px;
+    }
+    .small_title span {
+        font-size: 13px;
+    }
+    .sidebar ul {
+        padding-left: 10px !important;
+    }
+    .master_questions .nav.nav-tabs li a {
+        font-size: 13px;
+        padding: 16px 13px 16px 13px !important;
+    }
+    .exam_tab li:nth-child(1) {
+        width: 235px;
+    }
+    .exam_tab li:nth-child(2) {
+        width: 250px;
+    }
+    .exam_tab li:nth-child(3) {
+        width: 227px;
+    }
+    .quiz_sm h3{
+        font-size: 15px;
+    }
+    .quiz_sm .text-center {
+        padding-top: 0px !important;
+    }
+}
+@media only screen and (max-width: 1351px) {
+  .backgr_color {
+    top: 19%;
+    }
+
+}
+@media only screen and (max-width: 998px) {
+    .backgr_color {
+    top: 20%;
+    }
+    .bg_color a {
+    font-size: 12px;
+    }
+    .bg_color li {
+    padding-bottom: 0px;
+    }
+    .sidebar li {
+        padding-bottom: 27px !important;
+    }
+    .sidebar a {
+        font-size: 17px !important;
+    }   
+}
+@media only screen and (max-width: 991px) {
+    .sidebar li {
+        padding-bottom: 20px !important;
+    }
+    .sidebar a {
+        font-size: 12px !important;
+    } 
+    .sidebar li i {
+        font-size: 20px;
+        width: 40px;
+        vertical-align: bottom;
+    }
+    .start_exam input.btn.btn-success {
+        font-size: 15px;
+    }
+    .master_questions .nav.nav-tabs li a {
+        font-size: 11px;
+        padding: 10px 11px 11px 7px !important;
+    }
+    .master_questions .tab-content {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .table tbody th, .table tbody td, .table thead th{
+        font-size: 12px;
+    }
+    .exam_details h1 {
+        width: 50px;
+        height: 50px;
+        line-height: 45px;
+        margin-left: 51px;
+        margin-top: 18px;
+        font-size: 22px;
+    }
+    .exam_details h5{
+        font-size: 15px;
+    }
+    .exam_tab li:nth-child(1) {
+        width: 174px;
+    }
+    .exam_tab li:nth-child(2) {
+        width: 190px;
+    }
+    .exam_tab li:nth-child(3) {
+        width: 167px;
+    }
+    .edit_profile .sign_form {
+        width: 530px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .quiz_sm h3 {
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .small_title h3{
+        text-align: center;
+    }
+    .bg_color a {
+        font-size: 17px !important;
+    }
+    .bg_color li {
+        padding-bottom: 14px;
+    }
+    .sidebar li i {
+        vertical-align: middle;
+    }
+    .home_signin h3 {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .col-md-9.para_title {
+    border-top: 1px solid #fff !important;
+    border-bottom: 1px solid #fff !important;
+}
+    .para_title, .container .border, .no_padding{
+        border:none !important;
+    }
+    .col-md-3.small_title {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 11px;
+}
+    .home_signin {
+        height: 34px;
+        padding-top: 10px;
+    }
+    .edit_profile h5 {
+        font-size: 12px;
+        margin-top: 13px;
+    }
+    .row.exam_details {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .col-md-4.bl_border {
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid #62BCBD;
+        border-bottom: 1px solid #62BCBD;
+    }
+
+    .tab_content.exam_tab {
+        border-right: none;
+    }
+    .edit_profile .sign_form {
+    width: 100%;
+    }
+    .exam_details h1 {
+    text-align: center;
+    width: 2.4em;
+    height: 2.4em;
+    line-height: 2.4em;
+    border-radius: 50%;
+    border: 4px solid #9AB8BC;
+    font-weight: 500;
+    margin-left: 205px;
+    margin-top: 25px;
+}
+.small_title h3 {
+    text-align: left !important;
+}
+}
+@media only screen and (max-width: 600px) {
+    .exam_tab li:nth-child(2) {
+        width: 100%;
+        border-bottom: 1px solid #fff;
+        border-top: 1px solid #fff;
+        border-left: none;
+        border-right: none;
+    }
+    .exam_tab li:nth-child(1), .exam_tab li:nth-child(3){
+        width: 100%;
+    }
+    .edit_profile h5{
+        padding-left: 15px;
+    }
+    .exam_details h5 {
+        text-align: left;
+    }
+    .exam_details h1 {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .para_title h6, .question p, .answer{
+        font-size: 15px;
+    }
+    .answer input {
+        margin-bottom: 0px;
+    }
+    .answer input[type="radio"] {
+        height: 34px;
+        width: 34px;
+        vertical-align: middle;
+        margin-right: 2px;
+    }
+    .qt_div .banner img {
+        width: 30%;
+    }
+}
